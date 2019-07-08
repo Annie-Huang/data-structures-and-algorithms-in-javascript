@@ -39,5 +39,8 @@ q.dequeue();
 q.dequeue();
 q.dequeue();
 
-console.log(q.isEmpty());
+// console.log(q.isEmpty());
 // console.log(q.peek());
+
+exports.createQueue = createQueue;
+
